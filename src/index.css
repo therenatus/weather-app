@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-size: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
 
-.a {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+h1 {
+  font-weight: bold;
 }
